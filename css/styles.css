@@ -1,0 +1,86 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  /* background-color: #212529; */
+  background-color: #000;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: calc(0rem + 1.5vw);
+}
+
+#features{
+  background-color: #fff;
+  color: #000;
+  padding: 7% 15%;
+}
+
+.container-fluid {
+  padding: 0% 15%;
+}
+.col-lg-4{
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  padding: 10% 5%;
+  line-height: 2;
+}
+.fa-solid:hover{
+  color: #d3cebe;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3.8rem ;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+  margin: 15% auto;
+}
+h3{
+  color: #212529;
+}
+
+.main-img {
+  height: 750px;
+  margin-bottom: 0;
+}
+
+.Feature-img{
+  margin: auto;
+  height:350px;
+  width: auto;
+
+
+  /* padding-top: 125px; */
+}
+
+/* Navigation Bar */
+.navbar{
+  padding:0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.25rem;
+  color: #d3cebe;
+}
+
+.navbar-dark .navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  color: #d3cebe;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Booking Button */
+
+.Booking_btn{
+  position: relative;
+  margin: 7% 0 7% 35%;
+  padding: 2% 3%;
+  font-size: 2 rem;
+  font-family: 'Exo 2', sans-serif;
+
+}
