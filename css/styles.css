@@ -19,64 +19,7 @@ body {
   font-family: "Montserrat";
 }
 
-#title {
-  /* background-color: #3C5454; */
-  background-color: #000;
-  font-family: 'Barlow Condensed', sans-serif;
-  font-size: calc(0rem + 1.5vw);
-  position: relative;
-  z-index: -1;
-
-
-}
-
-#features {
-  background-color: #fff;
-  color: #000;
-  padding: 7% 15%;
-  margin: auto;
-  /* position: relative; */
-}
-
-/* ----------Testimonial section---------- */
-#testimonials {
-  background-color: #3C544C;
-  color: #fff;
-  padding: 7% 15%;
-  text-align: center;
-}
-
-#press {
-  background-color: #3C544C;
-  color: #fff;
-  padding-bottom: 3%;
-  text-align: center;
-}
-
-/* Pricing Cards */
-#pricing{
-text-align: center;
-
-}
-.rounded-3 {
-    border-radius: 0.6rem!important;
-}
-.container-fluid {
-  padding: 0% 15%;
-}
-
-.col-lg-4 {
-  align-items: center;
-  text-align: center;
-  /* margin: auto; */
-   padding: 10% 4%;
-  line-height: 2;
-}
-
-.fa-solid:hover {
-  color: #D3CBBB;
-}
-
+/* ----------Texts---------- */
 h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 3.8rem;
@@ -100,10 +43,88 @@ li {
   font-family: var(--bs-font-sans-serif);
 }
 
+.testimonial-text {
+  font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/* --------------------Sections-------------------- */
+#title {
+  /* background-color: #3C5454; */
+  background-color: #000;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: calc(0rem + 1.5vw);
+  position: relative;
+  z-index: -1;
+}
+#features {
+  background-color: #fff;
+  color: #000;
+  padding: 7% 15%;
+  margin: auto;
+  /* position: relative; */
+}
+/* ----------Testimonial---------- */
+#testimonials {
+  background-color: #3C544C;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+/* #press {
+  background-color: #3C544C;
+  color: #fff;
+  padding-bottom: 3%;
+  text-align: center;
+} */
+/* Pricing Cards */
+#pricing {
+  text-align: center;
+}
+#cta{
+  background-color: #212529;
+  color: #fff;
+  padding: 7% 15%;
+  text-align:center;
+
+}
+
+.cta_text{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+#footer{
+  background-color:#fff;
+  text-align: center;
+
+}
+
+.rounded-3 {
+  border-radius: 0.6rem !important;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.col-lg-4 {
+  align-items: center;
+  text-align: center;
+  /* margin: auto; */
+  padding: 10% 4%;
+  line-height: 2;
+}
+
+.fa-solid:hover {
+  color: #D3CBBB;
+}
+
 /* ----------Pricing Cards---------- */
 .card {
-  border: 3px solid rgba(0,0,0,.125);
-
+  border: 3px solid rgba(0, 0, 0, .125);
 }
 
 .card-header {
@@ -125,21 +146,8 @@ li {
   font-family: 'Exo 2', sans-serif;
 }
 
-.card_btn {
-  font-family: 'Roboto Mono', monospace;
-}
-
 /* ----------Images---------- */
-.main-img {
-  height: 750px;
-  margin-bottom: 0;
-  position: relative;
-  z-index: -1;
-  top: 30px;
-
-}
-
-.Feature-img {
+.Scruffs_img {
   margin: auto;
   height: 350px;
   width: auto;
@@ -154,6 +162,16 @@ li {
 .press_logo {
   width: 5%;
   margin: 20px 20px 50px;
+}
+
+.main-img {
+  height: 750px;
+  padding-top: 40px;
+  margin-bottom: 0;
+  z-index: -1;
+  position: relative;
+  top: 25%;
+  left: 40%;
 }
 
 /* ----------Navigation Bar---------- */
@@ -177,11 +195,100 @@ li {
   font-weight: bold;
 }
 
-/* ----------Booking Button---------- */
+/* ----------Buttons---------- */
 .Booking_btn {
   position: relative;
-  margin: 7% 0 7% 35%;
+  margin: 7% auto;
   padding: 2% 3%;
   font-size: 2 rem;
   font-family: 'Exo 2', sans-serif;
+  width: 100% ;
+}
+.last_Booking_btn {
+  font-size: 2 rem;
+  font-family: 'Exo 2', sans-serif;
+    position: relative;
+}
+
+.card_btn {
+  font-family: 'Roboto Mono', monospace;
+}
+
+@media (max-width: 576px) {
+  .main-img {
+    margin: 0;
+    height: 400px;
+    padding-top: 0px;
+    position: relative;
+    left: 0px;
+    top: 40px;
+  }
+
+  .Scruffs_img {
+    margin: auto;
+    height: 160px;
+    width: auto;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+
+  .Booking_btn {
+    width: 75% !important;
+    position: absolute;
+    margin: auto;
+  }
+
+  .testimonial-text {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+
+  em {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 992px) {
+  .main-img {
+    margin: 0;
+    height: 550px;
+    padding-top: 0px;
+    position: relative;
+    left: 20%;
+    top: 20%;
+  }
+
+  .Booking_btn {
+    width: 75% !important;
+    position: absolute;
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 1.6;
+    text-align: center;
+  }
+}
+
+ @media (min-width: 992px) and (max-width: 1400px) {
+  .main-img {
+    margin: 0;
+    height: 450px;
+    padding-top: 0px;
+    position: relative;
+    left: 20%;
+    top: 40%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    line-height: 1.5;
+    margin: 15% auto;
+  }
 }
